@@ -108,7 +108,7 @@ const Achievements = () => {
                 Start a Conversation
               </a>
               <a
-                href="https://linkedin.com/in/dedeepya-chowdary"
+                href="https://www.linkedin.com/in/SajjaDedeepya/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-6 py-3 border-2 border-[#1A73E8] text-[#1A73E8] rounded-lg font-semibold hover:bg-[#1A73E8] hover:text-white transition-all duration-200"
