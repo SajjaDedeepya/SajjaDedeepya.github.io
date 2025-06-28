@@ -75,9 +75,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-600 mt-8 pt-8 text-center">
           <p className="text-gray-400 flex items-center justify-center space-x-1">
-            <span>© {currentYear} Dedeepya Sajja. Built with</span>
-            <Heart className="text-red-500" size={16} />
-            <span>and React</span>
+            <span>© {currentYear} Dedeepya Sajja. </span>
           </p>
         </div>
       </div>
