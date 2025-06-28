@@ -39,8 +39,8 @@ const Contact = () => {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "linkedin.com/in/dedeepya-chowdary",
-      href: "https://linkedin.com/in/dedeepya-chowdary"
+      value: "https://www.linkedin.com/in/SajjaDedeepya/",
+      href: "https://www.linkedin.com/in/SajjaDedeepya/"
     },
     {
       icon: MapPin,
