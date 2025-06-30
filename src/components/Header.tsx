@@ -89,8 +89,7 @@ const Header = () => {
                   <Mail size={16} />
                   <span>Contact</span>
                 </a>
-                <a href="https://us-api.asm.skype.com/v1/objects/0-eus-d12-7eb7b85e712a72c8d334da6880901026/content/original/Dedeepya_Sajja_Reformatted_Resume.pdf"
-  download>
+                <a href="/Dedeepya_Sajja.pdf"  download>
 
                   <button className="flex items-center space-x-2 px-4 py-2 bg-[#FF6D00] text-white rounded-lg hover:bg-[#E65A00] transition-all duration-200">
                     <Download size={16} />
