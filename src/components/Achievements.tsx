@@ -37,7 +37,7 @@ const Achievements = () => {
     { number: "2+", label: "Years Experience", color: "#1A73E8" },
     { number: "70%", label: "Test Execution Time Reduced", color: "#28A745" },
     { number: "100%", label: "Project Success Rate", color: "#FF6D00" },
-    { number: "5+", label: "Automation Frameworks Built", color: "#9C27B0" }
+    { number: "4+", label: "Automation Frameworks Built", color: "#9C27B0" }
   ];
 
   return (
