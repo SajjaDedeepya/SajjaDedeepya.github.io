@@ -49,6 +49,28 @@ const Contact = () => {
       href: null
     }
   ];
+  {/* Popup Message Box */}
+      {showPopup && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white p-6 rounded-lg shadow-lg max-w-sm text-center">
+            <h3 className="text-lg font-semibold mb-2">📩 Unable to Submit?</h3>
+            <p className="text-sm text-gray-700 mb-4">
+              This form is currently not connected to a backend.<br />
+              Please contact me via:
+            </p>
+            <p className="text-sm text-gray-800 font-medium">
+              📧 <a href="mailto:dedeepyachowdary201@gmail.com" className="text-blue-600 underline">dedeepyachowdary201@gmail.com</a><br />
+              📱 <a href="https://wa.me/917989013720" className="text-green-600 underline" target="_blank" rel="noopener noreferrer">+91 79890 13720</a>
+            </p>
+            <button
+              onClick={() => setShowPopup(false)}
+              className="mt-4 px-4 py-2 bg-[#FF6D00] text-white rounded hover:bg-[#E65A00] transition"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      )}
 
   return (
     <section id="contact" className="py-20 bg-white">
