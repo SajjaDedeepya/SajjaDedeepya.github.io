@@ -51,10 +51,14 @@ const Hero = () => {
           </div>
 
           <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6">
-            <button className="group px-8 py-4 bg-[#FF6D00] text-white rounded-lg font-semibold hover:bg-[#E65A00] transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1 flex items-center space-x-2">
+             <a
+              href="https://sajjadedeepya.github.io/Dedeepya_Sajja.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group px-8 py-4 bg-[#FF6D00] text-white rounded-lg font-semibold hover:bg-[#E65A00] transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-1 flex items-center space-x-2">
               <span>Download Resume</span>
               <div className="group-hover:translate-x-1 transition-transform duration-200">→</div>
-            </button>
+            </a>
             <a
               href="mailto:dedeepyachowdary201@gmail.com"
               className="px-8 py-4 border-2 border-[#1A73E8] text-[#1A73E8] rounded-lg font-semibold hover:bg-[#1A73E8] hover:text-white transition-all duration-200"
