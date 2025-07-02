@@ -191,10 +191,14 @@ const Contact = () => {
             </form>
 
             <div className="mt-8 pt-8 border-t border-gray-100">
-              <button className="w-full bg-[#1A73E8] text-white px-6 py-4 rounded-lg font-semibold hover:bg-[#1557B0] transition-all duration-200 flex items-center justify-center space-x-2 shadow-lg hover:shadow-xl">
+               <a
+              href="https://sajjadedeepya.github.io/Dedeepya_Sajja.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full bg-[#1A73E8] text-white px-6 py-4 rounded-lg font-semibold hover:bg-[#1557B0] transition-all duration-200 flex items-center justify-center space-x-2 shadow-lg hover:shadow-xl">
                 <Download size={20} />
                 <span>Download My Resume</span>
-              </button>
+              </a>
             </div>
           </div>
         </div>
