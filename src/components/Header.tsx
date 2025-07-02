@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Download, Mail, Phone } from 'lucide-react';
+import { Menu, X, Download, Mail } from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -30,7 +30,7 @@ const Header = () => {
           <div className="text-xl font-bold text-[#2E3338]">
             Dedeepya Sajja
           </div>
-          
+
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
             {['About', 'Experience', 'Skills', 'Achievements', 'Contact'].map((item) => (
@@ -53,23 +53,15 @@ const Header = () => {
               <Mail size={16} />
               <span>Contact</span>
             </a>
-            <button className="flex items-center space-x-2 px-4 py-2 bg-[#FF6D00] text-white rounded-lg hover:bg-[#E65A00] transition-all duration-200 shadow-sm">
+            <a
+              href="https://sajjadedeepya.github.io/Dedeepya_Sajja.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center space-x-2 px-4 py-2 bg-[#FF6D00] text-white rounded-lg hover:bg-[#E65A00] transition-all duration-200 shadow-sm"
+            >
               <Download size={16} />
               <span>Resume</span>
-            </button>
-          </div>
-
-          {/* Mobile Menu Button */}
-          <button
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className="md:hidden p-2 text-[#2E3338]"
-          >
-            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
-        </div>
-
-        {/* Mobile Menu */}
-        {isMenuOpen && (
+uOpen && (
           <div className="md:hidden bg-white rounded-lg shadow-lg mt-2 py-4">
             <nav className="flex flex-col space-y-4 px-4">
               {['About', 'Experience', 'Skills', 'Achievements', 'Contact'].map((item) => (
@@ -89,23 +81,10 @@ const Header = () => {
                   <Mail size={16} />
                   <span>Contact</span>
                 </a>
-               <a
-  href="/Dedeepya_Sajja.pdf"
-  download="Dedeepya_Sajja.pdf"
-  className="flex items-center space-x-2 px-4 py-2 bg-[#FF6D00] text-white rounded-lg hover:bg-[#E65A00] transition-all duration-200"
->
-  <Download size={16} />
-  <span>Resume</span>
-</a>
-
-
-              </div>
-            </nav>
-          </div>
-        )}
-      </div>
-    </header>
-  );
-};
-
-export default Header;
+                <a
+                  href="https://sajjadedeepya.github.io/Dedeepya_Sajja.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center space-x-2 px-4 py-2 bg-[#FF6D00] text-white rounded-lg hover:bg-[#E65A00] transition-all duration-200"
+                >
+                 
