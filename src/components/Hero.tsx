@@ -27,7 +27,7 @@ const Hero = () => {
           </p>
           
           <p className="text-lg text-[#5A5F66] max-w-3xl mx-auto mb-8 leading-relaxed">
-            Passionate Quality Assurance Engineer with <strong>2+ years</strong> of expertise in manual and automation testing. 
+            Passionate Quality Assurance Engineer with <strong>3+ years</strong> of expertise in manual and automation testing. 
             At Accenture, I drive quality across healthcare and logistics domains through innovative test automation and CI/CD integration.
           </p>
 
