@@ -44,7 +44,7 @@ const About = () => {
             <div className="prose prose-lg text-[#5A5F66]">
               <p className="mb-4">
                 Hello! I'm a passionate <strong className="text-[#2E3338]">Quality Assurance Engineer</strong> with over 
-                2 years of hands-on expertise in manual and automation testing. Currently at Accenture, I specialize in 
+                3 years of hands-on expertise in manual and automation testing. Currently at Accenture, I specialize in 
                 creating robust test automation frameworks that scale with enterprise applications.
               </p>
               <p>
