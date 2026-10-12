@@ -10,11 +10,14 @@ const Experience = () => {
       period: "Nov 2024 – Present",
       current: true,
       achievements: [
-        "Designed and implemented end-to-end smoke tests from scratch using Playwright (JavaScript)",
-        "Authored Azure Pipeline YAML to trigger smoke tests automatically on code pushes",
-        "Enabled headless execution via MFA workaround for seamless CI/CD integration",
-        "Scheduled automated smoke executions at client-requested intervals",
-        "Active contributor in sprint planning, daily stand-ups, and retrospective reviews"
+        "Developed and maintained Appium - based mobile web automation for Android browser testing, improving validation coverage across critical user journeys.",
+        "Developed and maintained a Playwright automation framework supporting 600 + regression scenarios for enterprise healthcare applications.",
+        "Migrated 450 + automation scenarios to an Appium - based mobile automation framework, including framework setup, emulator / device configuration, and execution stabilization.",
+        "Designed reusable automation components and improved framework reliability through optimized locator strategies and synchronization handling.",
+        "Leveraged GitHub Copilot to accelerate test migration, framework development, and automation maintenance while ensuring code quality and stability.",
+        "Implemented Azure DevOps YAML pipelines for automated smoke and regression execution with integrated reporting and artifact publishing.",
+        "Implemented API validations using Swagger services to retrieve dynamic test data and prevent execution conflicts.",
+        "Reduced manual validation effort by approximately 80 % through scheduled automation execution and CI / CD integration."
       ]
     },
     {
@@ -24,11 +27,13 @@ const Experience = () => {
       period: "Dec 2022 – Oct 2024",
       current: false,
       achievements: [
-        "Led test scenario design, execution, and defect reporting for logistics platform using Azure DevOps and Jira",
-        "Built comprehensive API tests with RestAssured + TestNG framework",
-        "Developed cross-browser UI automation scripts with Playwright",
-        "Managed test scripts and pipelines in Azure Repos and Git for version control",
-        "Streamlined bug lifecycle with clear validation docs and developer workshops"
+        "Designed and executed manual and automated test scenarios for healthcare and logistics web applications.",
+        "Developed and maintained Playwright automation scripts for functional, regression, and end-to-end testing.",
+        "Performed API validation using Swagger by verifying request/response payloads, status codes, and business rule compliance.",
+        "Managed test plans, execution cycles, defect tracking, and release validation using Azure DevOps Test Plans.",
+        "Improved regression stability by implementing dynamic synchronization strategies and reducing flaky test failures.",
+        "Collaborated with developers to debug issues, analyze logs, reproduce defects, and support faster resolution.",
+        "Supported sprint releases, UAT validation, production sanity testing, and end-to-end quality assurance activities.",
       ]
     }
   ];
@@ -75,7 +80,7 @@ const Experience = () => {
                     </div>
 
                     <h3 className="text-2xl font-bold text-[#2E3338] mb-2">{exp.title}</h3>
-                    
+
                     <div className="flex items-center space-x-4 mb-6">
                       <span className="text-xl font-semibold text-[#1A73E8]">{exp.company}</span>
                       <div className="flex items-center space-x-1 text-[#5A5F66]">

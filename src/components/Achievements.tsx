@@ -1,43 +1,43 @@
 import React from 'react';
-import { Star, Award, Heart, TrendingUp } from 'lucide-react';
+import { Star, Award, BarChart3, Smartphone } from 'lucide-react';
 
 const Achievements = () => {
   const achievements = [
     {
       icon: Star,
       title: "Sparkling Star Award",
-      description: "Honored for exceptional contributions on first project at Accenture",
+      description: "Recognized for contributions to automation initiatives and improvements in regression execution efficiency.",
       color: "#FFD700",
       bgColor: "#FFF9C4"
     },
     {
       icon: Award,
       title: "ACE Extra Mile Award",
-      description: "Recognized for end-to-end regression testing during critical go-live",
+      description: "Recognized for providing critical quality engineering support during a healthcare application go-live.",
       color: "#FF6D00",
       bgColor: "#FFF3E0"
     },
     {
-      icon: Heart,
-      title: "CSR Volunteer",
-      description: "Monthly NGO visits supporting Accenture's community initiatives",
+      icon: BarChart3,
+      title: "Custom Reporting Initiative",
+      description: "Designed and developed a custom reporting solution using HTML, CSS, and JavaScript for automation execution analytics and stakeholder visibility.",
       color: "#E91E63",
       bgColor: "#FCE4EC"
     },
     {
-      icon: TrendingUp,
-      title: "Performance Excellence",
-      description: "Consistently delivered high-quality results across multiple projects",
+      icon: Smartphone,
+      title: "Appium Migration Initiative",
+      description: "Successfully migrated 450+ automation scenarios to an Appium-based mobile web automation framework while maintaining framework stability and reusability.",
       color: "#28A745",
       bgColor: "#E8F5E8"
     }
   ];
 
   const stats = [
-    { number: "2+", label: "Years Experience", color: "#1A73E8" },
-    { number: "70%", label: "Test Execution Time Reduced", color: "#28A745" },
-    { number: "100%", label: "Project Success Rate", color: "#FF6D00" },
-    { number: "4+", label: "Automation Frameworks Built", color: "#9C27B0" }
+    { number: "4+", label: "Years Experience", color: "#1A73E8" },
+    { number: "600+", label: "Automated Test Scenarios", color: "#28A745" },
+    { number: "450+", label: "Mobile Automation Migration", color: "#FF6D00" },
+    { number: "80%", label: "Manual Validation Reduction", color: "#9C27B0" }
   ];
 
   return (
@@ -47,7 +47,7 @@ const Achievements = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-[#2E3338] mb-4">Achievements & Recognition</h2>
           <div className="w-20 h-1 bg-[#FF6D00] mx-auto rounded-full mb-6"></div>
           <p className="text-lg text-[#5A5F66] max-w-2xl mx-auto">
-            Recognition for excellence in quality assurance and commitment to continuous improvement
+            Key milestones, automation contributions, and recognition earned while delivering enterprise quality engineering solutions.
           </p>
         </div>
 

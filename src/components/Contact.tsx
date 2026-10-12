@@ -49,7 +49,7 @@ const Contact = () => {
       href: null
     }
   ];
-  
+
 
   return (
     <section id="contact" className="py-20 bg-white">
@@ -58,7 +58,9 @@ const Contact = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-[#2E3338] mb-4">Get In Touch</h2>
           <div className="w-20 h-1 bg-[#FF6D00] mx-auto rounded-full mb-6"></div>
           <p className="text-lg text-[#5A5F66] max-w-2xl mx-auto">
-            Ready to discuss how I can contribute to your team's quality assurance goals? Let's connect!
+            Passionate about building reliable automation solutions,
+            improving release confidence, and enabling faster software delivery
+            through scalable quality engineering practices.
           </p>
         </div>
 
@@ -66,7 +68,7 @@ const Contact = () => {
           {/* Contact Information */}
           <div>
             <h3 className="text-2xl font-bold text-[#2E3338] mb-8">Let's Start a Conversation</h3>
-            
+
             <div className="space-y-6 mb-8">
               {contactInfo.map((info, index) => (
                 <div key={index} className="flex items-center space-x-4">
@@ -95,15 +97,20 @@ const Contact = () => {
             <div className="bg-[#F5F6FA] p-6 rounded-xl">
               <h4 className="text-lg font-semibold text-[#2E3338] mb-4">Open to Opportunities</h4>
               <p className="text-[#5A5F66] mb-4">
-                I'm actively seeking roles where I can leverage my automation expertise and contribute to 
-                high-impact quality assurance initiatives. Interested in:
+                I'm interested in opportunities where I can contribute to modern
+                quality engineering and automation initiatives while continuing
+                to grow as an SDET.
+              </p>
+              <p className="text-[#5A5F66] mb-4">
+                I'm particularly interested in:
               </p>
               <ul className="space-y-2">
                 {[
-                  "Senior QA Engineer positions",
-                  "Test Automation Lead roles",
-                  "Quality Engineering consulting",
-                  "Agile team collaboration opportunities"
+                  "Software Development Engineer in Test (SDET)",
+                  "Test Automation Engineer",
+                  "Quality Engineer",
+                  "Playwright Automation Engineer",
+                  "QA Automation Engineer"
                 ].map((item, index) => (
                   <li key={index} className="flex items-center space-x-2">
                     <div className="w-2 h-2 bg-[#1A73E8] rounded-full"></div>
@@ -192,11 +199,11 @@ const Contact = () => {
             </form>
 
             <div className="mt-8 pt-8 border-t border-gray-100">
-               <a
-              href="https://sajjadedeepya.github.io/Dedeepya_Sajja.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full bg-[#1A73E8] text-white px-6 py-4 rounded-lg font-semibold hover:bg-[#1557B0] transition-all duration-200 flex items-center justify-center space-x-2 shadow-lg hover:shadow-xl">
+              <a
+                href="https://sajjadedeepya.github.io/Dedeepya_Sajja.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full bg-[#1A73E8] text-white px-6 py-4 rounded-lg font-semibold hover:bg-[#1557B0] transition-all duration-200 flex items-center justify-center space-x-2 shadow-lg hover:shadow-xl">
                 <Download size={20} />
                 <span>Download My Resume</span>
               </a>
